@@ -14,12 +14,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
+#: ../../source/overview.rst:2
 msgid "Overview"
 msgstr "Огляд"
 
+#: ../../source/overview.rst:15
 msgid "Conventions"
 msgstr "Домовленості"
 
+#: ../../source/overview.rst:32
 msgid ""
 "If something went wrong during the request, we'll get a different status "
 "code and the JSON returned will have an `errors` field at the top level "
@@ -30,12 +33,15 @@ msgstr ""
 "який при поверненні міститиме `errors` поле на верхньому рівні зі списком "
 "проблем. Ми дивимось на першу з них і видруковуємо її повідомлення."
 
+#: ../../source/overview.rst:40
 msgid "Project status"
 msgstr "Стан проекту"
 
+#: ../../source/overview.rst:42
 msgid "The project has pre alpha status."
 msgstr "Статус цього проекту - пре альфа."
 
+#: ../../source/overview.rst:44
 msgid ""
 "The source repository for this project is on GitHub: "
 "https://github.com/openprocurement/openregistry.api"
@@ -43,17 +49,21 @@ msgstr ""
 "Репозиторій джерельних текстів цього проекту є на GitHub: "
 "https://github.com/openprocurement/openregistry.api"
 
+#: ../../source/overview.rst:48
 msgid "Documentation of related packages"
 msgstr "Документація пов’язаних пакетів"
 
+#: ../../source/overview.rst:50
 msgid ""
 "`OpenProcurement API <http://api-docs.openprocurement.org/en/latest/>`_"
 msgstr ""
 "`OpenProcurement API <http://api-docs.openprocurement.org/en/latest/>`_"
 
+#: ../../source/overview.rst:53
 msgid "API stability"
 msgstr "Стабільність API"
 
+#: ../../source/overview.rst:55
 msgid ""
 "API is relatively stable. The changes in the API are communicated via `Open "
 "Procurement API <https://groups.google.com/group/open-procurement-api>`_ "
@@ -62,9 +72,11 @@ msgstr ""
 "API є відносно стабільним. Зміни в API обговорюються через `Open Procurement"
 " API <https://groups.google.com/group/open-procurement-api>`_ розсилку."
 
+#: ../../source/overview.rst:70
 msgid "Next steps"
 msgstr "Наступні кроки"
 
+#: ../../source/overview.rst:4
 msgid ""
 "openregistry.assets.basic contains the description of the Registry Data "
 "Base."
@@ -72,24 +84,26 @@ msgstr ""
 "openregistry.assets.basic містить документацію з описом роботи з базою даних"
 " реєстру активів (RDB). "
 
+#: ../../source/overview.rst:7
 msgid "Features"
 msgstr "Особливості"
 
+#: ../../source/overview.rst:9
 msgid "Basic asset is a representation of an item."
 msgstr "Basic asset є представленням активу."
 
+#: ../../source/overview.rst:10
 msgid "Procedure can be switched from *draft* status to *pending*."
 msgstr "Процедура переходить зі статусу *draft* до *pending*."
 
+#: ../../source/overview.rst:11
 msgid ""
 "Basic assets are combined in lot, being marked as attached to that lot."
 msgstr ""
 "Декілька asset'ів, що, поєднуючись, формують лот, позначаються прикріпленими"
 " до цього лоту."
 
-msgid "You might find it helpful to look at the :ref:`tutorial`."
-msgstr "Можливо, вам буде цікаво прочитати :ref:`tutorial`."
-
+#: ../../source/overview.rst:22
 msgid ""
 "All API POST and PUT requests expect a top-level object with a single "
 "element in it named `data`.  Successful responses will mirror this format. "
@@ -101,6 +115,7 @@ msgstr ""
 "віддзеркалювати цей формат. Елемент data повинен сам бути об’єктом, що "
 "містить параметри запиту."
 
+#: ../../source/overview.rst:27
 msgid ""
 "If the request was successful, we will get a response code of `201` "
 "indicating the object was created.  That response will have a data field at "
@@ -111,11 +126,13 @@ msgstr ""
 "об’єкт був створений. Ця відповідь буде мати data поле на верхньому рівні, "
 "яке вміщуватиме повну інформацію про новий актив, включно з ID."
 
+#: ../../source/overview.rst:12
 msgid "The only currency (*Value.currency*) to be used is hryvnia (UAH)."
 msgstr ""
 "Єдина валюта (*Value.currency*), яку можна використати в межах процедури, - "
 "гривня (UAH)."
 
+#: ../../source/overview.rst:17
 msgid ""
 "API accepts `JSON <http://json.org/>`_ or form-encoded content in requests."
 "  It returns JSON content in all of its responses, including errors.  Only "
@@ -124,3 +141,32 @@ msgstr ""
 "API приймає `JSON <http://json.org/>`_ або form-encoded вміст у запитах. Він"
 " повертає JSON вміст у всіх свої відповідях, включно з помилками. "
 "Підтримується лише UTF-8 кодування і для запитів, і для відповідей."
+
+#: ../../source/overview.rst:59
+msgid "Change log"
+msgstr ""
+
+#: ../../source/overview.rst:62
+msgid "0.1"
+msgstr ""
+
+#: ../../source/overview.rst:64
+msgid "Not Released"
+msgstr ""
+
+#: ../../source/overview.rst:66
+msgid "Set up general build, testing, deployment, and ci framework."
+msgstr ""
+
+#: ../../source/overview.rst:67
+msgid "Creating/modifying asset"
+msgstr ""
+
+#: ../../source/overview.rst:71
+msgid ""
+"You might find it helpful to look at the :ref:`tutorial`, or the "
+":ref:`reference`."
+msgstr ""
+
+#~ msgid "You might find it helpful to look at the :ref:`tutorial`."
+#~ msgstr "Можливо, вам буде цікаво прочитати :ref:`tutorial`."

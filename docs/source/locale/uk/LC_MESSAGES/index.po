@@ -11,9 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../source/index.rst:13
 msgid "Welcome to openregistry.assets.basic's documentation!"
 msgstr "Вітаємо на сайті документації по openregistry.assets.basic! "
 
+#: ../../source/index.rst:15
 msgid ""
 "Please report any problems or suggestions for improvement either via the "
 "`mailing list <http://groups.google.com/group/open-procurement-general>`_ or"
@@ -25,35 +27,46 @@ msgstr ""
 "через `issue tracker "
 "<https://github.com/openprocurement/openregistry.assets.basic/issues>`_."
 
+#: ../../source/index.rst:20
 msgid "Contents:"
 msgstr "Зміст:"
 
+#: ../../source/index.rst:38
 msgid ":ref:`Authentication <openprocurementapi:authentication>`"
 msgstr ":ref:`Аутентифікація <openprocurementapi:authentication>`"
 
+#: ../../source/index.rst:39
 msgid ":ref:`Responses <openprocurementapi:errors>`"
 msgstr ":ref:`Відповіді <openprocurementapi:errors>`"
 
+#: ../../source/index.rst:40
 msgid ":ref:`Options <openprocurementapi:options>`"
 msgstr ":ref:`Опції <openprocurementapi:options>`"
 
+#: ../../source/index.rst:41
 msgid ":ref:`Date Format: ISO 8601 <openprocurementapi:date-format>`"
 msgstr ":ref:`Формат дати: ISO 8601 <openprocurementapi:date-format>`"
 
+#: ../../source/index.rst:42
 msgid ":ref:`Performance recommendations <openprocurementapi:performance>`"
 msgstr ":ref:`Рекомендації для роботи <openprocurementapi:performance>`"
 
+#: ../../source/index.rst:43
 msgid ":ref:`API in cluster mode <openprocurementapi:cluster>`"
 msgstr ":ref:`Робота з API в режимі кластеру <openprocurementapi:cluster>`"
 
+#: ../../source/index.rst:57
 msgid "Indices and tables"
 msgstr "Індекси та таблиці"
 
+#: ../../source/index.rst:59
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
+#: ../../source/index.rst:60
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
 
+#: ../../source/index.rst:8
 msgid "kmqHGqhpzgef4t5OVKoQCPa5v-CK14HOLmVrZV2QgmQ"
 msgstr ""

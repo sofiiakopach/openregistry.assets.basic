@@ -1,0 +1,28 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openregistry.assets.basic 0.1.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-17 15:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/assetsWorkflow.rst:4
+msgid "Assets Workflow"
+msgstr "Схема роботи активів"
+
+#: ../../source/assetsWorkflow.rst:28
+msgid "Legend"
+msgstr "Умовні позначення"
+
+#: ../../source/assetsWorkflow.rst:30
+msgid "dashed line - user action"
+msgstr "пунктирна лінія - дії користувача"
+
+#: ../../source/assetsWorkflow.rst:32
+msgid "solid line - action is done automatically"
+msgstr "суцільна лінія - автоматичні дії"

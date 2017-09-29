@@ -11,105 +11,137 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../source/assets.rst:5
 msgid "Retrieving Asset Information"
 msgstr "Отримання інформації про актив"
 
+#: ../../source/assets.rst:8
 msgid "Getting list of all assets"
 msgstr "Отримати список всіх активів"
 
+#: ../../source/assets.rst:12
 msgid "Getting list of all assets."
 msgstr "Отримати список всіх активів"
 
+#: ../../source/assets.rst:14 ../../source/assets.rst:106
 msgid "**Example request**:"
 msgstr "**Приклад запиту**:"
 
+#: ../../source/assets.rst:21 ../../source/assets.rst:113
 msgid "**Example response**:"
 msgstr "**Приклад відповіді**:"
 
+#: ../../source/assets.rst:0
 msgid "Query Parameters"
 msgstr "Параметри запиту"
 
+#: ../../source/assets.rst:49
 msgid "offset number"
-msgstr "параметр, який ви повинні додати до вихідного запиту, щоб отримати наступну сторінку"
+msgstr ""
+"параметр, який ви повинні додати до вихідного запиту, щоб отримати наступну "
+"сторінку"
 
+#: ../../source/assets.rst:50
 msgid "limit number. default is 100"
-msgstr "обмеження кількості активів, що повертаються (дефолтне значення - 100)"
+msgstr ""
+"обмеження кількості активів, що повертаються (дефолтне значення - 100)"
 
+#: ../../source/assets.rst:0 ../../source/assets.rst:0
 msgid "Request Headers"
 msgstr "Заголовки запиту"
 
+#: ../../source/assets.rst:51 ../../source/assets.rst:176
 msgid "optional OAuth token to authenticate"
 msgstr "необов'язковий токен OAuth для аутентифікації"
 
+#: ../../source/assets.rst:0 ../../source/assets.rst:0
 msgid "Status Codes"
 msgstr "Коди стану"
 
+#: ../../source/assets.rst:52 ../../source/assets.rst:177
 msgid "no error"
 msgstr "без помилок"
 
+#: ../../source/assets.rst:53
 msgid "endpoint not found"
 msgstr "ресурс не знайдено"
 
+#: ../../source/assets.rst:56
 msgid "Sorting"
 msgstr "Сортування"
 
+#: ../../source/assets.rst:57
 msgid "Assets returned are sorted by modification time."
 msgstr "Повернені активи просортовані за датою модифікації."
 
+#: ../../source/assets.rst:60
 msgid "Limiting number of Assets returned"
 msgstr "Обмеження кількості активів, що повертаються"
 
+#: ../../source/assets.rst:62
 msgid ""
 "You can control the number of `data` entries in the assets feed (batch size)"
 " with `limit` parameter. If not specified, data is being returned in batches"
 " of 100 elements."
 msgstr ""
-"Ви можете контролювати кількість `data` записів потоку даних активів "
-"(розмір пакета) за допомогою параметра `limit`. Якщо він не вказаний, то дані "
+"Ви можете контролювати кількість `data` записів потоку даних активів (розмір"
+" пакета) за допомогою параметра `limit`. Якщо він не вказаний, то дані "
 "будуть повернені пакетами по 100 елементів."
 
+#: ../../source/assets.rst:67
 msgid "Batching"
 msgstr "Пакети"
 
+#: ../../source/assets.rst:69
 msgid ""
 "The response contains `next_page` element with the following properties:"
-msgstr ""
-"Відповідь містить елемент `next_page`з такими властивостями:"
+msgstr "Відповідь містить елемент `next_page`з такими властивостями:"
 
+#: ../../source/assets.rst:0
 msgid "offset"
 msgstr "offset"
 
+#: ../../source/assets.rst:72
 msgid ""
 "This is the parameter you have to add to the original request you made to "
 "get next page."
 msgstr ""
-"Це параметр, який ви повинні додати до вихідного запиту, щоб отримати наступну сторінку."
+"Це параметр, який ви повинні додати до вихідного запиту, щоб отримати "
+"наступну сторінку."
 
+#: ../../source/assets.rst:0
 msgid "path"
 msgstr "path"
 
+#: ../../source/assets.rst:76
 msgid ""
 "This is path section of URL with original parameters and `offset` parameter "
 "added/replaced above."
 msgstr ""
-"Це частина шляху URL-адреси з вихідними параметрами та доданим/заміненим `offset` параметром вище."
+"Це частина шляху URL-адреси з вихідними параметрами та доданим/заміненим "
+"`offset` параметром вище."
 
+#: ../../source/assets.rst:0
 msgid "uri"
 msgstr "uri"
 
+#: ../../source/assets.rst:80
 msgid "The full version of URL for next page."
 msgstr "Повна версія URL-адреси для наступної сторінки."
 
+#: ../../source/assets.rst:82
 msgid ""
 "If next page request returns no data (i.e. empty array) then there is little"
 " sense in fetching further pages."
 msgstr ""
-"Якщо запит наступної сторінки повертається без даних (наприклад, пустий масив), "
-"тоді немає сенсу викликати сторінки далі."
+"Якщо запит наступної сторінки повертається без даних (наприклад, пустий "
+"масив), тоді немає сенсу викликати сторінки далі."
 
+#: ../../source/assets.rst:86
 msgid "Synchronizing"
 msgstr "Синхронізація"
 
+#: ../../source/assets.rst:88
 msgid ""
 "It is often necessary to be able to syncronize central database changes with"
 " other database (we'll call it \"local\").  The default sorting \"by "
@@ -120,23 +152,28 @@ msgid ""
 "fetching subsequent page.  The `next_page` guarantees that all changes from "
 "the last request are included in the new batch."
 msgstr ""
-"Часто необхідно мати можливість синхронізувати зміни центральної бази даних з "
-"іншою базою даних (ми будемо називати її “локальною”). Стандартне сортування "
-"“за датою модифікації” разом із механізмом пакетування дозволяє ефективно здійснювати "
-"синхронізацію. Процес синхронізації може виконуватись посторінково, поки не буде "
-"жодних нових даних, що повертаються. Тоді синхронізатор призупиниться на деякий час, "
-"щоб дозволити центральній базі даних зареєструвати деякі зміни і спробувати завантажити "
-"наступну сторінку. next_page гарантує, що усі зміни з останнього запиту будуть включені "
-"у новий пакет."
+"Часто необхідно мати можливість синхронізувати зміни центральної бази даних "
+"з іншою базою даних (ми будемо називати її “локальною”). Стандартне "
+"сортування “за датою модифікації” разом із механізмом пакетування дозволяє "
+"ефективно здійснювати синхронізацію. Процес синхронізації може виконуватись "
+"посторінково, поки не буде жодних нових даних, що повертаються. Тоді "
+"синхронізатор призупиниться на деякий час, щоб дозволити центральній базі "
+"даних зареєструвати деякі зміни і спробувати завантажити наступну сторінку. "
+"next_page гарантує, що усі зміни з останнього запиту будуть включені у новий"
+" пакет."
 
+#: ../../source/assets.rst:97
 msgid "The safe frequency of synchronization requests is once per 5 minutes."
 msgstr "Безпечна частота запитів на синхронізацію - раз в 5 хвилин."
 
+#: ../../source/assets.rst:100
 msgid "Reading the individual asset information"
 msgstr "Прочитати інформацію про окремі активи"
 
+#: ../../source/assets.rst:104
 msgid "Getting asset details."
 msgstr "Отримати деталі активу"
 
+#: ../../source/assets.rst:178
 msgid "asset not found"
 msgstr "актив не знайдено"

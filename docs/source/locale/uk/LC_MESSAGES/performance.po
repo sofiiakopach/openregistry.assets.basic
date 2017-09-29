@@ -11,12 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../source/performance.rst:4
 msgid "Performance recommendations"
 msgstr "Рекомендації для роботи"
 
+#: ../../source/performance.rst:8
 msgid "Rate Control"
 msgstr "Контроль частоти запитів"
 
+#: ../../source/performance.rst:10
 msgid ""
 "\"Aggressive\" IP addresses can be restricted in the speed with which "
 "servers are processing CDB requests. In this case CDB will respond with "
@@ -27,6 +30,7 @@ msgstr ""
 "сервери RDB опрацьовують запити. У відповідь на запити, які прийшли швидше "
 "ніж дозволено, RDB відповідає :ref:`з кодом статусу 429 <errors>`"
 
+#: ../../source/performance.rst:12
 msgid ""
 "Expected client response to such restriction is to repeat requests returned "
 "with 429 status code increasing the delay between individual requests sent "
@@ -37,6 +41,7 @@ msgstr ""
 "збільшуючи затримку між окремими запитами, що посилаються на RDB, доти доки "
 "запити не почнуть вдаватися (2xx/3xx відповіді)."
 
+#: ../../source/performance.rst:14
 msgid ""
 "Such CDB servers behavior is required in order to distribute server "
 "resources evenly between clients."

@@ -11,18 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../source/standard/basicAsset.rst:9
 msgid "Basic Asset"
 msgstr "Basic Asset"
 
+#: ../../source/standard/basicAsset.rst:12
+#: ../../source/standard/basicAsset.rst:145
+#: ../../source/standard/basicAsset.rst:182
+#: ../../source/standard/basicAsset.rst:201
 msgid "Schema"
 msgstr "Схема"
 
+#: ../../source/standard/basicAsset.rst:15
+#: ../../source/standard/basicAsset.rst:18
+#: ../../source/standard/basicAsset.rst:26
+#: ../../source/standard/basicAsset.rst:31
 msgid "string, auto-generated, read-only"
 msgstr "рядок, генерується автоматично, лише для читання"
 
+#: ../../source/standard/basicAsset.rst:20
 msgid "The asset identifier to refer it to in the `paper` documentation."
 msgstr "Ідентифікатор активу, щоб знайти його у `паперовій` документації."
 
+#: ../../source/standard/basicAsset.rst:22
 msgid ""
 "|ocdsDescription| AssetID is included to make the flattened data structure "
 "more convenient."
@@ -30,78 +41,108 @@ msgstr ""
 "|ocdsDescription| AssetID включають, щоб зробити структуру даних більш "
 "зручною та читабельною."
 
+#: ../../source/standard/basicAsset.rst:28
 msgid "The date of asset creation/undoing."
 msgstr "Дата створення/знищення активу."
 
+#: ../../source/standard/basicAsset.rst:33
 msgid "|ocdsDescription| Date when the asset was last modified."
 msgstr "|ocdsDescription| Дата внесення останніх змін до активу."
 
+#: ../../source/standard/basicAsset.rst:37
 msgid "optional"
 msgstr "не обов'язково"
 
+#: ../../source/standard/basicAsset.rst:39
 msgid "The additional parameter with a value ``test``."
 msgstr "Додатковий параметр, що вказує на тестовий режим."
 
+#: ../../source/standard/basicAsset.rst:42
+#: ../../source/standard/basicAsset.rst:57
+#: ../../source/standard/basicAsset.rst:132
+#: ../../source/standard/basicAsset.rst:134
+#: ../../source/standard/basicAsset.rst:185
+#: ../../source/standard/basicAsset.rst:209
 msgid "string, required"
 msgstr "рядок, обов'язковий"
 
+#: ../../source/standard/basicAsset.rst:44
 msgid "The asset status within the Registry."
 msgstr "Статус запису в реєстрі активів."
 
+#: ../../source/standard/basicAsset.rst:52
 msgid "string, required in `active` status"
 msgstr "рядок, обов'язковий у статусі `active`"
 
+#: ../../source/standard/basicAsset.rst:54
 msgid "ID of the related Lot."
 msgstr "Ідентифікатор лоту, до якого належить актив."
 
+#: ../../source/standard/basicAsset.rst:59
 msgid "Type of the given asset."
 msgstr "Тип активу."
 
+#: ../../source/standard/basicAsset.rst:62
 msgid "string, multilingual"
 msgstr "рядок, багатомовний"
 
+#: ../../source/standard/basicAsset.rst:64
 msgid "Ukrainian by default (required) - Ukrainian title"
 msgstr "українською за замовчуванням - заголовок українською, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:66
 msgid "``title_en`` (English) - English title"
 msgstr "``title_en`` (English) - заголовок англійською"
 
+#: ../../source/standard/basicAsset.rst:68
 msgid "``title_ru`` (Russian) - Russian title"
 msgstr "``title_ru`` (Russian) - заголовок російською"
 
+#: ../../source/standard/basicAsset.rst:70
 msgid "Oprionally can be mentioned in English/Russian."
 msgstr "Вказання заголовку англійсько/російською не обов'язкове."
 
+#: ../../source/standard/basicAsset.rst:73
 msgid "string, multilingual, optional"
 msgstr "рядок, багатомовний, не обов'язковий"
 
+#: ../../source/standard/basicAsset.rst:75
 msgid "|ocdsDescription| A description of the goods, services to be provided."
 msgstr "|ocdsDescription| Опис товарів та послуг, які повинні бути надані."
 
+#: ../../source/standard/basicAsset.rst:78
 msgid "Ukrainian by default - Ukrainian decription"
 msgstr "Українською за замовчуванням - опис українською"
 
+#: ../../source/standard/basicAsset.rst:80
 msgid "``decription_en`` (English) - English decription"
 msgstr "``decription_en`` (English) - опис англійською"
 
+#: ../../source/standard/basicAsset.rst:82
 msgid "``decription_ru`` (Russian) - Russian decription"
 msgstr "``decription_ru`` (Russian)  - опис російською"
 
+#: ../../source/standard/basicAsset.rst:86
 msgid "|ocdsDescription| All related documents and attachments."
 msgstr "|ocdsDescription| Пов'язані з активом документи та додатки."
 
+#: ../../source/standard/basicAsset.rst:90
 msgid ":ref:`Organization`, required"
 msgstr ":ref:`Organization`, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:92
 msgid "The entity managing the asset."
 msgstr "Розпорядник активу."
 
+#: ../../source/standard/basicAsset.rst:95
 msgid ":ref:`Classification`, required"
 msgstr ":ref:`Classification`, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:97
 msgid "The primary classification for the asset."
 msgstr "Початкова класифікація активу."
 
+#: ../../source/standard/basicAsset.rst:99
 msgid ""
 "It is required for `classification.scheme` to be `CPV`. The "
 "`classification.id` should be valid CPV code."
@@ -109,9 +150,11 @@ msgstr ""
 "Класифікація `classification.scheme` обов’язково повинна бути CPV. "
 "`classification.id` повинно бути дійсним CPV кодом."
 
+#: ../../source/standard/basicAsset.rst:103
 msgid "List of :ref:`Classification` objects, optioanl"
 msgstr "Список об’єктів :ref:`Classification`, не обов'язково"
 
+#: ../../source/standard/basicAsset.rst:105
 msgid ""
 "|ocdsDescription| An array of additional classifications for the item. See "
 "the `itemClassificationScheme` codelist for common options to use in OCDS. "
@@ -123,12 +166,15 @@ msgstr ""
 " OCDS. Також можна використовувати для представлення кодів з внутрішньої "
 "схеми класифікації."
 
+#: ../../source/standard/basicAsset.rst:111
 msgid "One of the possible additional classifiers is CPVS."
 msgstr "Один з можливих додаткових класифікаторів - CPVS."
 
+#: ../../source/standard/basicAsset.rst:114
 msgid ":ref:`Unit`, required"
 msgstr ":ref:`Unit`, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:116
 msgid ""
 "|ocdsDescription| Description of the unit which the good comes in e.g.  "
 "hours, kilograms. Made up of a unit name, and the value of a single unit."
@@ -136,30 +182,41 @@ msgstr ""
 "|ocdsDescription| Опис одиниці виміру товару, наприклад, години, кілограми. "
 "Складається з назви одиниці та значення однієї одиниці."
 
+#: ../../source/standard/basicAsset.rst:121
 msgid "integer, required"
 msgstr "ціле число, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:123
 msgid "|ocdsDescription| The number of units required."
 msgstr "|ocdsDescription| Кількість необхідних одиниць."
 
+#: ../../source/standard/basicAsset.rst:127
 msgid "dictionary"
 msgstr "словник"
 
+#: ../../source/standard/basicAsset.rst:129
 msgid ""
 "Geographical coordinates of the location. Element consists of the following "
 "items:"
 msgstr ""
 "Географічні координати місця розташування. Складається з таких компонентів:"
 
+#: ../../source/standard/basicAsset.rst:136
 msgid "string, optional, usually not used"
 msgstr "рядок, не обов’язково, переважно не використовується"
 
+#: ../../source/standard/basicAsset.rst:142
 msgid "Classification"
 msgstr "Classification"
 
+#: ../../source/standard/basicAsset.rst:148
+#: ../../source/standard/basicAsset.rst:157
+#: ../../source/standard/basicAsset.rst:163
+#: ../../source/standard/basicAsset.rst:190
 msgid "string"
 msgstr "рядок"
 
+#: ../../source/standard/basicAsset.rst:150
 msgid ""
 "|ocdsDescription| A classification should be drawn from an existing scheme "
 "or list of codes.  This field is used to indicate the scheme/codelist from "
@@ -172,16 +229,21 @@ msgstr ""
 "значення повинно представляти відому Схему Класифікації Елементів, де це "
 "можливо."
 
+#: ../../source/standard/basicAsset.rst:159
 msgid ""
 "|ocdsDescription| The classification code drawn from the selected scheme."
 msgstr "|ocdsDescription| Код класифікації взятий з вибраної схеми."
 
+#: ../../source/standard/basicAsset.rst:165
 msgid "|ocdsDescription| A textual description or title for the code."
 msgstr "|ocdsDescription| Текстовий опис або назва коду."
 
+#: ../../source/standard/basicAsset.rst:0
+#: ../../source/standard/basicAsset.rst:169
 msgid "uri"
 msgstr "uri"
 
+#: ../../source/standard/basicAsset.rst:171
 msgid ""
 "|ocdsDescription| A URI to identify the code. In the event individual URIs "
 "are not available for items in the identifier scheme this value should be "
@@ -191,114 +253,153 @@ msgstr ""
 "доступні для елементів у схемі ідентифікації, це значення треба залишити "
 "пустим."
 
+#: ../../source/standard/basicAsset.rst:179
 msgid "Unit"
 msgstr "Unit"
 
+#: ../../source/standard/basicAsset.rst:187
 msgid "UN/CEFACT Recommendation 20 unit code."
 msgstr "Код одиниці виміру в UN/CEFACT Recommendation 20."
 
+#: ../../source/standard/basicAsset.rst:192
 msgid "|ocdsDescription| Name of the unit"
 msgstr "|ocdsDescription| Назва одиниці виміру"
 
+#: ../../source/standard/basicAsset.rst:47
 msgid ":ref:`Value`, required"
 msgstr ":ref:`Value`, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:49
 msgid "Estimated asset value."
 msgstr "Оціночна вартість."
 
+#: ../../source/standard/basicAsset.rst:204
 msgid "float, required"
 msgstr "float, обов'язково"
 
+#: ../../source/standard/basicAsset.rst:206
 msgid "Should be positive."
 msgstr "Повинно бути додатним."
 
+#: ../../source/standard/basicAsset.rst:211
 msgid "|ocdsDescription| The currency in 3-letter ISO 4217 format."
 msgstr "|ocdsDescription| Валюта у трибуквенному форматі ISO 4217."
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "valueAddedTaxIncluded"
 msgstr "valueAddedTaxIncluded"
 
+#: ../../source/standard/basicAsset.rst:215
 msgid "bool, required"
 msgstr "булеве значення, обов’язково"
 
+#: ../../source/standard/basicAsset.rst:0
+#: ../../source/standard/basicAsset.rst:0
 msgid "id"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "assetID"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "date"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "dateModified"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "mode"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "status"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "value"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "relatedLot"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "assetType"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "title"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
+#: ../../source/standard/basicAsset.rst:0
 msgid "description"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "documents"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "assetCustodian"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "classification"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "additionalClassifications"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "unit"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "quantity"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "location"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "latitude"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "longitude"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "elevation"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "scheme"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "code"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "name"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:198
 msgid "Value"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "amount"
 msgstr ""
 
+#: ../../source/standard/basicAsset.rst:0
 msgid "currency"
 msgstr ""
 

@@ -11,39 +11,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../source/tutorial.rst:4
 msgid "Tutorial"
 msgstr "Туторіал"
 
+#: ../../source/tutorial.rst:7
 msgid "Exploring basic rules"
 msgstr "Базові правила"
 
+#: ../../source/tutorial.rst:9
 msgid "Let's try exploring the `/assets` endpoint:"
 msgstr "Подивимось як працює точка входу `/assets`:"
 
+#: ../../source/tutorial.rst:14
 msgid "Just invoking it reveals empty set."
 msgstr "При виклику видає пустий набір."
 
+#: ../../source/tutorial.rst:16
 msgid "Now let's attempt creating some asset:"
 msgstr "Спробуймо створити новий актив"
 
+#: ../../source/tutorial.rst:21
 msgid ""
 "Error states that the only accepted Content-Type is `application/json`."
 msgstr "Помилка вказує, що єдиний прийнятний тип вмісту це application/json."
 
+#: ../../source/tutorial.rst:23
 msgid "Let's satisfy the Content-type requirement:"
 msgstr "Задовільнимо вимогу типу вмісту:"
 
+#: ../../source/tutorial.rst:28
 msgid "Error states that no `data` has been found in JSON body."
 msgstr "Помилка вказує, що `data` не знайдено у тілі JSON."
 
+#: ../../source/tutorial.rst:34
 msgid "Creating asset"
 msgstr "Створення активу"
 
+#: ../../source/tutorial.rst:37
 msgid "Let's create asset with the minimal (only required) data set:"
 msgstr ""
 "Створимо asset з мінімально допустимим набором даних (тільки параметри "
 "обовязкові для заповнення) "
 
+#: ../../source/tutorial.rst:45
 msgid ""
 "Success! Now we can see that new object was created. Response code is `201` "
 "and `Location` response header reports the location of the created object.  "
@@ -61,17 +72,21 @@ msgstr ""
 "модифікувався). Зверніть увагу на `assetType`, а також на те, що актив "
 "створюється зі статусом `pending`."
 
+#: ../../source/tutorial.rst:53
 msgid ""
 "Let's access the URL of the created object (the `Location` header of the "
 "response):"
 msgstr "Використаємо URL створеного об’єкта (заголовок відповіді `Location`):"
 
+#: ../../source/tutorial.rst:60
 msgid "We can see the same response we got after creating asset."
 msgstr "Ми бачимо ту ж відповідь, що і після створення активу."
 
+#: ../../source/tutorial.rst:62
 msgid "Let's see what listing of assets reveals us:"
 msgstr "Подивимось, що показує список активів:"
 
+#: ../../source/tutorial.rst:67
 msgid ""
 "We do see the internal `id` of a asset (that can be used to construct full "
 "URL by prepending `http://lb.api-"
@@ -83,6 +98,7 @@ msgstr ""
 "sandbox.registry.openprocurement.net/api/0/assets/`) та його dateModified "
 "дату."
 
+#: ../../source/tutorial.rst:69
 msgid ""
 "The previous asset contained only required fields. Let's try creating asset "
 "with more data (asset has status `created`):"
@@ -91,6 +107,7 @@ msgstr ""
 "актив з максимально допустимим набором даних при створенні (актив повинен "
 "бути у статусі `created`)."
 
+#: ../../source/tutorial.rst:75
 msgid ""
 "And again we have `201 Created` response code, `Location` header and body "
 "with extra `id`, `assetID`, and `dateModified` properties."
@@ -98,18 +115,23 @@ msgstr ""
 "І знову код відповіді `201 Created`, заголовок `Location` і тіло з "
 "додатковим `id`, `assetID`, та властивість `dateModified`."
 
+#: ../../source/tutorial.rst:77
 msgid "Let's check what asset registry contains:"
 msgstr "Перевіримо, що містить реєстр активів:"
 
+#: ../../source/tutorial.rst:82
 msgid "And indeed we have 2 assets now."
 msgstr "Дійсно, в нас зараз є два активи."
 
+#: ../../source/tutorial.rst:85
 msgid "Modifying Asset"
 msgstr "Модифікація активу"
 
+#: ../../source/tutorial.rst:87
 msgid "Let's update asset description:"
 msgstr "Оновимо актив шляхом надання йому усіх інших важливих властивостей:"
 
+#: ../../source/tutorial.rst:94
 msgid ""
 "We see the added properies have merged with existing asset data. "
 "Additionally, the `dateModified` property was updated to reflect the last "
@@ -119,14 +141,18 @@ msgstr ""
 "Додатково оновлена властивість dateModified, щоб відображати останню дату "
 "модифікації."
 
+#: ../../source/tutorial.rst:96
 msgid "Checking the listing again reflects the new modification date:"
 msgstr "Ще одна перевірка списку відображає нову дату модифікації:"
 
+#: ../../source/tutorial.rst:103
 msgid "Deleting Asset"
 msgstr "Видалення активу"
 
+#: ../../source/tutorial.rst:105
 msgid "Let's delete asset:"
 msgstr "Видалимо актив"
 
+#: ../../source/tutorial.rst:113
 msgid "Integration with lots"
 msgstr "Інтеграція з лотами"
